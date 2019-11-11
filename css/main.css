@@ -1738,6 +1738,20 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.site-author-image:hover {
+  -webkit-transform: rotate(666turn);
+  -moz-transform: rotate(666turn);
+  -ms-transform: rotate(666turn);
+  -o-transform: rotate(666turn);
+  transform: rotate(666turn);
+  transition-delay: 1s;
+  transition-property: all;
+  transition-duration: 59s;
+  transition-timing-function: cubic-bezier(0.34, 0, 0.84, 1);
 }
 .site-author-name {
   margin: 0;
@@ -1819,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #baffff;
+  background: #aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3116,4 +3130,23 @@ pre .javascript .function {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
+* {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
+}
+:active {
+  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
+}
+.site-meta {
+  background: #362e2a;
 }
